@@ -24,6 +24,13 @@ h3 {
   font-weight: normal;
   font-size: 24px;
 }
+
+p {
+  font-family: var(--content-font);
+  font-size: 16px;
+  opacity: 70%;
+  line-height: 2;
+}
 .btn-branding {
   font-family: var(--content-font);
   font-weight: medium;
@@ -38,4 +45,43 @@ h3 {
   text-align: center;
   background-color: var(--secondary-color);
   padding: 200px 20px;
+}
+
+.project-heading {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.btn-branding-project {
+  color: var(--brand-color);
+  background-color: white;
+  border: solid 1px var(--brand-color);
+  padding: 20px 50px;
+  border-radius: 4px;
+}
+
+.content-paragraph {
+  margin: 40px 0;
+}
+
+.feature-projects-paragraph {
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+  .feature-projects-paragraph {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .project-heading {
+    font-size: 40px;
+    text-align: center;
+  }
 }
