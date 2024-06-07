@@ -68,6 +68,15 @@ p {
 .feature-projects-paragraph {
   font-size: 18px;
 }
+
+.about-h2 {
+  font-size: 18px;
+}
+
+.about-h1 {
+  font-size: 64px;
+}
+
 @media (max-width: 900px) {
   p {
     text-align: center;
@@ -83,5 +92,10 @@ p {
   .project-heading {
     font-size: 40px;
     text-align: center;
+  }
+  .btn-branding-project {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
   }
 }
