@@ -77,6 +77,15 @@ p {
   font-size: 64px;
 }
 
+.hero-wrapper-about {
+  background-color: white;
+  padding: 150px 20px;
+}
+
+.ana-img {
+  border-radius: 10px;
+}
+
 @media (max-width: 900px) {
   p {
     text-align: center;
@@ -97,5 +106,23 @@ p {
     display: block;
     margin: 0 auto;
     width: fit-content;
+  }
+  .about-h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .about-h2 {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .about-paragraph {
+    font-size: 15px;
+    text-align: center;
+  }
+  .about-button {
+    font-size: 14px;
+    padding: 10px 25px;
   }
 }
