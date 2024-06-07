@@ -73,7 +73,7 @@ p {
   font-size: 18px;
 }
 
-.about-h1 {
+.content-h1 {
   font-size: 64px;
 }
 
@@ -86,6 +86,10 @@ p {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
+}
+
+.work-wrapper {
+  margin: 200px 80px;
 }
 
 @media (max-width: 900px) {
@@ -109,7 +113,7 @@ p {
     margin: 0 auto;
     width: fit-content;
   }
-  .about-h1 {
+  .content-h1 {
     font-size: 35px;
     text-align: center;
   }
