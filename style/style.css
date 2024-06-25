@@ -83,17 +83,13 @@ p {
 
 .hero-wrapper-about {
   background-color: white;
-  padding: 150px 20px;
+  padding: 40px 20px;
 }
 
 .ana-img {
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-}
-
-.work-wrapper {
-  margin: 200px 80px;
 }
 
 .logo {
@@ -155,6 +151,9 @@ footer .social-links a:hover {
   background-color: var(--brand-color);
 }
 
+small {
+  text-align: center;
+}
 @media (max-width: 900px) {
   p {
     text-align: center;
