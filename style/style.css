@@ -151,9 +151,6 @@ footer .social-links a:hover {
   background-color: var(--brand-color);
 }
 
-small {
-  text-align: center;
-}
 @media (max-width: 900px) {
   p {
     text-align: center;
@@ -191,6 +188,8 @@ small {
   }
   .about-button {
     font-size: 14px;
-    padding: 10px 25px;
+    padding: 10px;
+    display: block;
+    text-align: center;
   }
 }
